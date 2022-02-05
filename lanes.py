@@ -71,7 +71,7 @@ def display_lines(image, lines):
 # cv2.imshow('result', combo_image)
 # cv2.waitKey(0)
 
-cap = cv2.VideoCapture("/Users/harshdarji/Documents/Projects/Lane_Detection/test2.mp4")
+cap = cv2.VideoCapture("./Projects/Lane_Detection/test2.mp4")
 while(cap.isOpened()):
     _, frame = cap.read()
     canny_image = canny(frame)
